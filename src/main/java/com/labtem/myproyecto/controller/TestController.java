@@ -17,4 +17,7 @@ public class TestController {
     public String goodbye(){
         return "goodbye";
     }
+
+    @GetMapping("/holaAlan")
+    public String holaAlan(){return "holaAlan";}
 }
